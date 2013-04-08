@@ -1,0 +1,12 @@
+<ul>
+	<li ng-repeat="post in posts" class="post {{post.author}}">
+		<h2><a class="date" href="index.html#/posts/{{post._id}}/edit">{{post.date | date:'dd-MM-yy'}}</a></h2>
+		<h3>{{post.title}}</h3>
+		<h3>{{post.author}}</h3>
+
+		<div ng-bind-html-unsafe="post.body_md"></div>
+	</li>
+</ul>
+<footer>
+<a class="btn" href="index.html#/posts/new">New post</a>
+</footer>

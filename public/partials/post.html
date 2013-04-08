@@ -1,0 +1,7 @@
+<h2>{{post.date}}</h2>
+<h3>{{post.title}}</h3>
+<h3>{{post.author}}</h3>
+
+<div ng-bind-html-unsafe="post.body_md"></div>
+
+<a class="btn" href="index.html#/posts/{{post._id}}/edit">Edit</a>

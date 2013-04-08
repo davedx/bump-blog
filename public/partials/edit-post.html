@@ -1,0 +1,23 @@
+<div ng-show="message" class="alert">{{ message }}</div>
+<form ng-submit="submit()" class="post-form">
+	<fieldset>
+		<legend ng-show="postid">Edit post</legend>
+		<legend ng-hide="postid">New post</legend>
+		<label>Date:</label>
+		<input ng-model="post.date" placeholder="yyyy-mm-dd">
+		<label>Title:</label>
+		<input ng-model="post.title" placeholder="Blog post title">
+		<label>Author:</label>
+		<input ng-model="post.author" placeholder="Dave or Lara">
+		<label>Body</label>
+		<textarea class="pull-left body-input" rows="15" cols="50" ng-model="post.body"></textarea>
+		<span class="pull-right well well-small">
+			Markdown:<br>
+			**text** = bold, *text* = italic<br>
+			[img pics/filename] = photo<br>
+		</span>
+		<div class="clearfix"></div>
+		<button class="btn btn-primary">Save</button>
+		<a class="btn" href="index.html#/posts">View posts</a>
+	</fieldset>
+</form>

@@ -1,0 +1,45 @@
+/* app css stylesheet */
+
+.main {
+  background-color: #ccc;
+}
+
+.body-input {
+  width: 70%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.post {
+  border-radius: 14px;
+  background-color: #eee;
+  padding: 20px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.Dave {
+}
+
+.Lara {
+  margin-left: 15%;
+}
+
+a.date {
+  color: #333;
+}
+
+.post-form {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.pic {
+  max-height: 200px;
+}
+
+footer {
+  padding: 20px;
+}
