@@ -1,6 +1,75 @@
 /* app css stylesheet */
+* {
+  font-family: 'Georgia';
+}
+
 .main {
-  background-color: #ccc;
+  background-color: #fff;
+  width: 950px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url('/img/GrassTopDino.png');
+  width: 650px;
+  height: 184px;
+  float: left;
+}
+
+.header h1 {
+  margin: 50px 0 0 170px;
+  font-size: 40px;
+}
+
+.right-bar {
+  float: right;
+  margin-top: 50px;
+}
+
+.right-top {
+  background-image: url('/img/TopBar.png');
+  width: 220px;
+  height: 45px;
+}
+
+.right-middle {
+  background-image: url('/img/MiddleEndBar.png');
+  width: 200px;
+  padding: 0 10px 20px 10px;
+}
+.right-middle p {
+  font-family: 'Georgia';
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+h3.title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+h3.side-title {
+  color: #ecdd5e;
+}
+
+h3.blog-title {
+  color: #006721;
+}
+
+.right-middle ul {
+  margin: 0;
+}
+.right-middle li {
+  margin: 5px 0;
+  line-height: 22px;
+  font-size: 22px;
+}
+
+.posts {
+  padding-top: 1px;
+  clear: left;
+  width: 700px;
 }
 
 .body-input {
@@ -12,18 +81,27 @@ li {
 }
 
 .post {
-  border-radius: 14px;
-  background-color: #eee;
   padding: 20px;
   width: 80%;
   margin-top: 20px;
+  border-radius: 5px;
+}
+
+.post-body p {
+  font-family: 'Georgia';
+}
+
+.title-divider {
+  border-bottom: 4px solid #006721;
 }
 
 .Dave {
+  border: 6px solid #69af0e;
 }
 
 .Lara {
-  margin-left: 15%;
+  margin-left: 9%;
+  border: 6px solid #ecdd5e;
 }
 
 a.date {
